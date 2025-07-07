@@ -49,7 +49,7 @@ if __name__ == '__main__':
         )
         user_choice = input("Enter your choice to continue: ")
 
-        if user_choice not in ['1', '2', '3', '4', '5']:
+        if user_choice not in ['1', '2', '3', '4', '5']
             print("Please enter a valid option.")
             continue
 
