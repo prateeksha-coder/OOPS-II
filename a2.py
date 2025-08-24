@@ -49,10 +49,10 @@ if __name__ == '__main__':
         )
         user_choice = input("Enter your choice to continue: ")
 
-        if user_choice not in ['1', '2', '3', '4', '5']
+        if user_choice not in ['1', '2', '3', '4', '5']:
             print("Please enter a valid option.")
-            continue
-
+            continue #takes the program control to the besginning of the loop
+ 
         if user_choice == '1':
             books.displayBooks()
         elif user_choice == '2':
