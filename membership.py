@@ -1,1 +1,2 @@
-print(5 not in [1,2,3,4])
+a=5
+print(f"a={a}") #formatted string
